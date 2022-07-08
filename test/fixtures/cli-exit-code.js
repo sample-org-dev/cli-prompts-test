@@ -8,8 +8,6 @@ enquirer
   })
   .then(({ text }) => {
     if (!text) {
-      
       process.exit(1);
     }
-    
   });

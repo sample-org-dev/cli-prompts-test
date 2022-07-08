@@ -10,6 +10,4 @@ enquirer
     limit: 7,
     choices,
   })
-  .then(({ color }) => {
-    
-  });
+  .then(({ color }) => {});
