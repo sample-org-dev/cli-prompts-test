@@ -11,5 +11,5 @@ enquirer
     choices,
   })
   .then(({ color }) => {
-    console.log(`You chose ${color.join(", ")}`);
+    
   });
