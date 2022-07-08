@@ -6,7 +6,7 @@ const execa = require("execa");
  * @param {string[]} answers answers to be passed to stdout
  * @param {Object} [options] specify the testPath and timeout
  *
- * returns {Promise<Object>}
+ * @returns {Promise<Object>}
  */
 
 module.exports = (args, answers, options) => {
